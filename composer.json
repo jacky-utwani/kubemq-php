@@ -1,0 +1,26 @@
+{
+    "name": "jacky-utwani/kubemq-php",
+    "description": "PHP Client library for KubeMQ (https://kubemq.io)",
+    "type": "library",
+    "homepage": "https://github.com/jacky-utwani/kubemq-php",
+    "keywords": ["kubemq", "grpc", "php", "microservices", "message-broker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacky Utwani",
+            "email": "jackyutwani222@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-grpc": "*",
+        "grpc/grpc": "^1.22",
+        "google/protobuf": "^3.9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\": "src/GPBMetadata",
+            "Kubemq\\": "src/Kubemq"
+        }
+    }
+}
